@@ -1,0 +1,11 @@
+RewriteEngine ON
+
+RewriteRule ^category/([^/]+) /category.php?id=$1
+RewriteRule ^post/([^/]+) /post.php?id=$1
+RewriteRule ^login$ /login.php
+RewriteRule ^logout$ /logout.php
+RewriteRule ^register$ /register.php
+RewriteRule ^settings$ /settings.php
+RewriteRule ^create$ /create.php
+RewriteRule ^edit$ /edit.php
+RewriteRule ^search$ /search.php
